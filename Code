@@ -1,0 +1,6 @@
+#Read a hard coded test and Analyse
+
+from textblob import TextBlob
+simple_text = TextBlob ("I am happy today")
+print(simple_text.sentiment)
+
